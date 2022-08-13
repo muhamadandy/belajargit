@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  height: 70px;
+  background-color: #bb9eff;
+}
+
+nav {
+  max-width: 1080px;
+  margin: auto;
+  height: 70px;
+}
+
+nav ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #3d00cc;
+}
